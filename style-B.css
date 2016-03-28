@@ -1,0 +1,379 @@
+/*-------------------------
+        BASIC SETTING
+-------------------------*/
+@media (min-width: 768px) {
+  /* line 6, ../sass/style-1.scss */
+  .container-fluid {
+    width: 810px;
+  }
+}
+/* line 10, ../sass/style-1.scss */
+body {
+  background-color: #aaa;
+  padding-top: 50px;
+}
+
+/* line 15, ../sass/style-1.scss */
+.container-fluid {
+  background-color: #fff;
+}
+
+/* line 19, ../sass/style-1.scss */
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/*-------------------------
+        MENU STTING
+-------------------------*/
+@media (min-width: 768px) {
+  /* line 5, ../sass/style-2.scss */
+  .navbar {
+    box-shadow: 0 15px 30px -20px inset;
+    -mz-width: 100%;
+    margin: 0 auto;
+  }
+
+  /* line 11, ../sass/style-2.scss */
+  .navbar-right {
+    margin-right: -10px;
+    padding-top: 85px;
+  }
+
+  /* line 16, ../sass/style-2.scss */
+  .nav > li > a {
+    padding: 3px 0;
+    border-radius: 10px 10px 0 0;
+  }
+
+  /* line 21, ../sass/style-2.scss */
+  .navbar-nav > li {
+    float: left;
+    width: 130px;
+    height: 25px;
+    text-align: center;
+    border-left: 1px solid #fff;
+    border-radius: 10px 10px 0 0;
+    background-color: #f4a80a;
+  }
+}
+@media (max-width: 767px) {
+  /* line 32, ../sass/style-2.scss */
+  .navbar-fixed-top .navbar-collapse {
+    background-color: #f4a80a;
+  }
+}
+/* line 36, ../sass/style-2.scss */
+.nav > li > a {
+  font: bold 12px/19px Verdana, Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+/* line 41, ../sass/style-2.scss */
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background-color: #fcce0a;
+}
+
+/* line 46, ../sass/style-2.scss */
+.navbar-toggle .icon-bar {
+  background-color: #f4a80a;
+}
+
+/* line 50, ../sass/style-2.scss */
+.navbar-fixed-bottom,
+.navbar-fixed-top {
+  position: absolute;
+  height: 110px;
+}
+
+/*-------------------------
+  LOGO AND IMGLOGO SETTING
+-------------------------*/
+@media (min-width: 768px) {
+  /* line 5, ../sass/style-3.scss */
+  #logo {
+    margin-top: 17px;
+    margin-left: 16px;
+  }
+
+  /* line 10, ../sass/style-3.scss */
+  #img h3 {
+    font-size: 48px;
+  }
+
+  /* line 14, ../sass/style-3.scss */
+  #img h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 19, ../sass/style-3.scss */
+  #logo {
+    margin-top: 12px;
+    margin-left: 0px;
+  }
+
+  /* line 24, ../sass/style-3.scss */
+  #img h3,
+  #img h4 {
+    text-align: right;
+  }
+
+  /* line 29, ../sass/style-3.scss */
+  #img h3 {
+    font-size: 25px;
+    padding-top: 60px;
+  }
+
+  /* line 34, ../sass/style-3.scss */
+  #img h4 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 289px) {
+  /* line 39, ../sass/style-3.scss */
+  #logo {
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  /* line 44, ../sass/style-3.scss */
+  #img h3 {
+    font-size: 20px;
+  }
+
+  /* line 48, ../sass/style-3.scss */
+  #img h4 {
+    font-size: 15px;
+  }
+
+  /* line 52, ../sass/style-3.scss */
+  .navbar-brand {
+    float: none;
+  }
+}
+@media (max-width: 245px) {
+  /* line 57, ../sass/style-3.scss */
+  #logo {
+    margin-top: -5px;
+    margin-left: -5px;
+  }
+}
+/* line 62, ../sass/style-3.scss */
+.navbar-brand {
+  line-height: 27px;
+  padding: 0 0;
+}
+
+/* line 67, ../sass/style-3.scss */
+#logo {
+  font-family: 'KaiTi', Verdana, Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: #f76b0c;
+}
+
+/* line 73, ../sass/style-3.scss */
+#logo h4 {
+  font-size: 11px;
+  color: #808080;
+}
+
+/* line 78, ../sass/style-3.scss */
+.business-header {
+  height: 132px;
+  background: url("/img/test.png") center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* line 87, ../sass/style-3.scss */
+.tagline {
+  text-shadow: 0 0 10px #000;
+  color: #fff;
+}
+
+/* line 92, ../sass/style-3.scss */
+.img-center {
+  margin: 0 auto;
+}
+
+/* line 96, ../sass/style-3.scss */
+#img {
+  margin-top: 60px;
+}
+
+/* line 100, ../sass/style-3.scss */
+#img h3,
+#img h4 {
+  font-family: 'KaiTi', Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  margin-top: 10px;
+  text-align: right;
+  color: #fff;
+}
+
+/*-------------------------
+        MAIN SETTING
+-------------------------*/
+/* line 4, ../sass/style-4.scss */
+#rightbar li {
+  margin-left: -2em;
+  list-style: none;
+}
+
+/* line 9, ../sass/style-4.scss */
+#rightbar a {
+  font: bold 12px/19px Verdana, Arial, Helvetica, sans-serif;
+  display: block;
+  padding: 0 6px;
+  color: white;
+  border: 1px solid #fff;
+  background: #6a91c8;
+}
+
+/* line 18, ../sass/style-4.scss */
+#rightbar a:focus,
+#rightbar a:hover {
+  background-color: #6a91f5;
+}
+
+/* line 23, ../sass/style-4.scss */
+#rightbar h2 {
+  font-size: 24px;
+  font-weight: bolder;
+  padding-left: 25px;
+  color: #797b7a;
+}
+
+/* line 30, ../sass/style-4.scss */
+.style5 {
+  color: #f00;
+}
+
+/* line 34, ../sass/style-4.scss */
+.style2,
+.emp {
+  font-weight: bold;
+  color: #f00;
+}
+
+/* 
+leftbar setting-1  
+ */
+@media (min-width: 768px) {
+  /* line 5, ../sass/style-4-1.scss */
+  #leftbar {
+    width: 600px;
+    border-right: 1px solid #bcbdbc;
+  }
+
+  /* line 10, ../sass/style-4-1.scss */
+  #leftbar table th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  /* line 15, ../sass/style-4-1.scss */
+  #leftbar table {
+    margin-top: 0px;
+  }
+}
+/* line 19, ../sass/style-4-1.scss */
+#leftbar table th {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
+  background-color: #ccc;
+  padding-left: 3px;
+  border-color: #ccc;
+}
+
+/* line 28, ../sass/style-4-1.scss */
+#leftbar table td {
+  border-color: #ccc;
+}
+
+/* line 32, ../sass/style-4-1.scss */
+#leftbar td table {
+  width: 100%;
+}
+
+/* line 35, ../sass/style-4-1.scss */
+#leftbar table {
+  width: 98%;
+  border-collapse: collapse;
+}
+
+/* line 40, ../sass/style-4-1.scss */
+#leftbar h2 {
+  font-size: 24px;
+  color: #ee8907;
+  font-weight: bolder;
+}
+
+/* line 46, ../sass/style-4-1.scss */
+#leftbar p {
+  padding: 0 40px;
+  color: #797b7a;
+}
+
+/* line 51, ../sass/style-4-1.scss */
+#leftbar a:hover {
+  color: blue;
+  background: yellow;
+}
+
+/* line 56, ../sass/style-4-1.scss */
+#leftbar a {
+  color: #ee8907;
+}
+
+/* line 60, ../sass/style-4-1.scss */
+#rightbar li {
+  margin-left: -2em;
+  list-style: none;
+}
+
+/*-------------------------
+        FOOTER SETTING
+-------------------------*/
+@media (min-width: 768px) {
+  /* line 5, ../sass/style-5.scss */
+  #email,
+  #validtext {
+    font-size: 11px;
+    width: 810px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+  }
+}
+/* line 13, ../sass/style-5.scss */
+footer {
+  margin: 35px 0 0 0;
+}
+
+/* line 17, ../sass/style-5.scss */
+#bottom {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 22, ../sass/style-5.scss */
+#email,
+#validtext {
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+  background-color: #9bbe00;
+}
+
+/* line 30, ../sass/style-5.scss */
+#validtext p {
+  margin: 0 0 0;
+}
