@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Start Bootstrap](http://startbootstrap.com/) - [Business Frontpage](http://startbootstrap.com/template-overviews/business-frontpage/)
 
 [Business Frontpage](http://startbootstrap.com/template-overviews/business-frontpage/) is a basic business website template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
@@ -24,3 +25,7 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 ## Copyright and License
 
 Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-business-frontpage/blob/gh-pages/LICENSE) license.
+=======
+# NCUTEASS
+NCUT Electriic Archive System Service
+>>>>>>> 286d0975acbc767de5463984f33f332e8aec9c45
